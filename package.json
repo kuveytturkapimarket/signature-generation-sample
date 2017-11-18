@@ -1,0 +1,15 @@
+{
+  "name": "createsignature",
+  "version": "0.0.0",
+  "description": "createsignature",
+  "main": "server.js",
+  "author": {
+    "name": "Kuveyt Turk FinTech Ar-Ge"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "buffer-concat": "^1.0.0",
+    "crypto": "^1.0.1",
+    "express": "^4.16.2"
+  }
+}
