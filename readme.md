@@ -1,9 +1,3 @@
-# Kuveyt Turk API Banking Platform Samples
-
-This repository contains a collection of samples showcasing some typical uses of Kuveyt Turk API Banking Platform.
-Documentation for how to use Kuveyt Turk API Banking Platform is available here: https://developer.kuveytturk.com.tr/#/documentation
-## Samples
-
 ### Create Sign of Request Package
 Kuveyt Turk API Market currently supports two authorization flows:
 
