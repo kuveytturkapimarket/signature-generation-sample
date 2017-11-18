@@ -9,7 +9,7 @@ To allow you to call Kuveyt Turk APIs which are required the authorization code 
 
 To sign a request, you need a certificate which can be verisign or not. You can create a certificate with openssl. After generation private key and public key, you must be add the public key to your application page on Kuveyt Turk API Market. API Gateway of Kuveyt Turk validates the request with your public key.
 
-### Sample Request For Creating Signature
+### Sample Request to Generating Signature
 ```
 curl -X POST \
   http://localhost:3000 \
@@ -24,7 +24,7 @@ curl -X POST \
   "PaymentTypeId": 99
 }'
 ```
-### Sample Request with Signature For Sending Money To IBAN
+### Sample Request For Sending Money To IBAN with Signature
 ```
 curl -X POST \
   https://apitest.kuveytturk.com.tr/prep/v1/transfers/ToIBAN \
