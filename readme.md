@@ -5,9 +5,9 @@ Kuveyt Turk API Market currently supports two authorization flows:
 
 * Client Authentication flow allows you to call Kuveyt Turk APIs by supplying your client credentials (client ID and secret key). This flow is used in server-to-server authentication. Only endpoints that do not access user information can be accessed.
 
-To allow you to call Kuveyt Turk APIs which are required the authorization code flow, you have to add signature to request header. For post methods, you must be sign access token and request body. For get methods, you must be sign only access token and query string.
+To call the Kuveyt Turk APIs which require the authorization code flow, you have to add a signature to the request header. For POST methods, you must sign the access token and the request body. For GET methods, you must sign the access token and query string.
 
-To sign a request, you need a certificate which can be verisign or not. You can create a certificate with openssl. After generation private key and public key, you must be add the public key to your application page on Kuveyt Turk API Market. API Gateway of Kuveyt Turk validates the request with your public key.
+To sign a request, you need a digital certificate. You can either get a certificate from Verisign or similar trusted certificate providers, or create a certificate with OpenSSL. After generating the private key and the public key, you must add the public key to your application page on Kuveyt Turk API Market. Then, Kuveyt Turk API Gateway validates the request with your public key.
 
 ### Sample Request to Generating Signature
 ```
