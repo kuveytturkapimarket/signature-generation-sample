@@ -3,7 +3,7 @@ Kuveyt Turk API Market currently supports two authorization flows:
 
 * The authorization code flow is used to obtain both access tokens and refresh tokens and is optimized for confidential clients. Since this is a redirection-based flow, the client must be capable of interacting with the resource owner's user-agent (typically a web browser) and capable of receiving incoming requests (via redirection) from the authorization server.
 
-* Client Authentication flow allows you to call Kuveyt Turk APIs by supplying your client credentials (client ID and secret key). This flow is used in server-to-server authentication. Only endpoints that do not access user information can be accessed.
+* The client credentials flow allows you to call Kuveyt Turk APIs by supplying your client credentials (client ID and secret key). This flow is used in server-to-server authentication. Only endpoints that do not access user information can be accessed.
 
 To call the Kuveyt Turk APIs which require the authorization code flow, you have to add a signature to the request header. For POST methods, you must sign the access token and the request body. For GET methods, you must sign the access token and query string.
 
